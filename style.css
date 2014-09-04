@@ -1,0 +1,24 @@
+.url-box{
+    box-shadow: 0px 3px 20px 0.5px;
+    margin: 13px 10px;
+    padding: 5px 3px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    min-width: 500px;
+	
+    min-height: 200px;
+    display: -webkit-box;
+    border-radius: 10px;
+    transition: 300ms all ease;
+}
+
+.url-box:hover{
+	box-shadow: 0px 6px 24px 0.9px;
+	cursor: hand;
+}
+
+.container {
+    display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
